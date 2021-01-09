@@ -7,4 +7,4 @@ client.on('ready', () => {
     console.log('je suis trop baux');
 });
 
-client.login(config.token)
+client.login(process.env.TOKEN)
